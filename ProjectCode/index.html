@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectCode</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />  <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />                                      <!-- https://getbootstrap.com/ -->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />                                <!-- https://fontawesome.com/ -->
+    <link href="css/projectcode.css" rel="stylesheet" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/projectcode.js"></script>
+    <script src="sessionControl/sessionControl.js"></script>        <!--Script che verifica se utente è registrato o no-->
+
+                                    
+</head>
+
+<body>
+    <div class="pc-container">        
+        <div>
+            <div class="pc-row pt-3">
+                <div class="pc-col-left">
+                    <div class="pc-site-header media">
+                        <i class="fas fa-code fa-3x mt-1 pc-logo"></i>
+                        <div class="media-body">
+                            <h1 class="pc-sitename">ProjectCode</h1>
+                            <p class="pc-slogon">Learn Faster Learn Better</p>
+                        </div>        
+                    </div>
+                </div>
+                <div class="pc-col-right">
+                    <nav class="navbar navbar-expand-lg" id="pc-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-stream"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse pc-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase w-100 justify-content-around">
+                                <li class="nav-item active">
+                                    <a class="nav-link pc-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pc-nav-link" href="/portale/portale.html">Portale</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pc-nav-link" href="/negozio/negozio.html">Negozio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pc-nav-link" href="/contact/contact.html">Contatti</a>
+                                </li>    
+                                <!-- navbar#Parte Destra-->                          
+                                <li class="nav-item dropdown">
+                                    <button id="userZone_btn" data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle text-uppercase pc-nav-link" style="background: none;border: none;"></button>
+                                    <div class="dropdown-menu" id="" style="min-width:unset; text-align: center;">
+                                        <span class='dropdown-item' id="userZone_0" style="padding:0;"></span>
+                                        <span class='dropdown-item' id="userZone_1" style="padding:0; padding-top: 5px; "></span>
+                                    </div>
+                                </li>
+                                </li>
+
+                            </ul>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="pc-row">
+                <div class="pc-col-left"></div>
+                <main class="pc-col-right">
+                    <section class="pc-content">
+                        <h2 class="mb-5 pc-content-title">Troverai tutto ci&ograve; di cui hai bisogno</h2>
+                        <p class="mb-5">ProjectCode ti fornisce tutti gli strumenti che ti servono per imparare velocemente e al meglio Java, Python,Ruby, Scala e altri linguaggi di programmazione.</p>
+                        <hr class="mb-5">
+                        <p class="mb-5">Che stai aspettando? </p>                        
+                        <a href="./portale/portale.html" class="btn btn-primary">Inizia ora!</a>
+                    </section>
+                </main>
+            </div>
+        </div>        
+
+        <div class="pc-row">
+            <div class="pc-col-left text-center">            
+                <ul class="pc-bg-controls-wrapper">
+                    <li class="pc-bg-control active" data-id="0"></li>
+                    <li class="pc-bg-control" data-id="1"></li>
+                    <li class="pc-bg-control" data-id="2"></li>
+                </ul>            
+            </div>        
+            <div class="pc-col-right pc-col-footer">
+                <footer class="pc-site-footer text-right">
+                    <p class="mb-0">Copyright 2020 ProjectCode
+                    
+                    | Authors: Dejan Christian Marco <a href="/index.html" class="pc-text-link">ProjectCode</a></p>
+                </footer>
+            </div>  
+        </div>
+
+        <!-- Design del background-->
+        <div class="pc-bg">
+            <div class="pc-bg-left"></div>
+            <div class="pc-bg-right"></div>
+        </div>
+    </div>
+</body>
+</html>

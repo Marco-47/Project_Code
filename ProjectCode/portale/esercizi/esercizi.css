@@ -1,0 +1,31 @@
+.terminale {
+    min-width: 5px;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 1.5px;
+    color: #20C20E;
+}
+
+.text {
+  overflow: hidden;
+  height: auto;
+} 
+
+.divComp {
+  border: 2px solid white;
+  border-radius: 0px; 
+  padding:10px; 
+  text-align:center
+}
+
+.divComp .inRisp{
+  width: inherit;
+  background-color:white;
+  text-align:center
+}
+
+.divComp .divRisp{
+  transition: 0.5s;
+  margin-top: 20px
+}

@@ -1,0 +1,92 @@
+.barra-verticale{
+  border-left: 6px solid black;
+  height: 500px;
+  position: relative;
+  left: 50%;
+}
+
+.btn-storia{
+    border-radius: 10px;
+    position: absolute;
+    left: -30px;
+}
+
+.storia .storia-row{
+  height: auto; 
+  height: auto;
+  margin-bottom:0;
+}
+
+.contenitore-fluid div .colsx {
+  margin-bottom: 0;
+}
+
+.colsx{
+  position: relative; 
+  float: right; 
+  border-right: 3px solid black; 
+  padding-right: 40px;
+  transition: border-right 2s ease-in-out;
+}
+
+.colsx .diapositivasx{
+  max-width: 500px; 
+  background-color: black; 
+  border-radius: 20px 0 20px 5px;
+  padding: 15px;
+  text-align: end;
+}
+
+.markdotsx{
+  position:absolute; 
+  top: 0px;
+  right:-1.40rem;
+  background-color: unset;
+  color: linear-gradient(black, white);
+  border: 0;
+  z-index: 2;
+}
+
+.colsx .diapositivasx .markarr{
+  position:absolute; 
+  top:-10.7px; 
+  right:23px; 
+  color: black;
+  background-color: unset;
+}
+
+.coldx{
+  padding-left:40px;
+}
+
+.container-diapositiva-sx{
+  float: right; 
+  max-width: 500px;
+}
+
+.container-diapositiva-dx{
+  float: left; 
+  max-width: 500px;
+}
+
+.markdot-dx{
+  position:absolute; 
+  left:-1.40rem; 
+  color: linear-gradient(black, white);
+  border:0; 
+  background:unset; 
+  z-index: 3
+}
+
+.diapositiva-dx{
+  background-color: black; 
+  border-radius: 0 20px 5px 20px; 
+  padding: 15px;
+}
+
+.coldx .diapositiva-dx .markarr-dx{
+  position:absolute; 
+  top: -10.7px; 
+  left:23px; 
+  color: black;
+}
